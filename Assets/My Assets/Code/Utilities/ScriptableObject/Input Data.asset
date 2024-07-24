@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db4e4bbb6e9c80f4ea20dd19d3761b7d, type: 3}
+  m_Name: Input Data
+  m_EditorClassIdentifier: 
+  inputType: 1
+  forwardInputs: 0
+  sideInputs: 0
+  runningInputs: 0
+  mouseDeltaX: -6.849991
+  mouseDeltaY: 2.4000027
