@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db4e4bbb6e9c80f4ea20dd19d3761b7d, type: 3}
   m_Name: Input Data
   m_EditorClassIdentifier: 
-  inputType: 1
+  inputType: 0
   forwardInputs: 0
   sideInputs: 0
   runningInputs: 0
-  mouseDeltaX: -6.849991
-  mouseDeltaY: 2.4000027
+  mouseDeltaX: -4.408175
+  mouseDeltaY: -1.4053484

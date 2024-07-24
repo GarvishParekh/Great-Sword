@@ -6,6 +6,7 @@ namespace Game.GreatSword.Manager
     public class InputManager : MonoBehaviour
     {
         [SerializeField] private InputData inputData;
+        [SerializeField] private GameObject touchControlCanvas;
         [SerializeField] private Joystick joystick;
 
         float deltaX = 0;
@@ -15,6 +16,19 @@ namespace Game.GreatSword.Manager
         float currentY = 0;
 
         #region UnityFunctions
+
+        private void Awake()
+        {
+            switch (inputData.inputType)
+            {
+                case InputType.KEYBOARD:
+                    touchControlCanvas.SetActive(false);
+                    break;
+                case InputType.TOUCH:
+                    touchControlCanvas.SetActive(true);
+                    break;
+            }
+        }
 
         private void Update()
         {
