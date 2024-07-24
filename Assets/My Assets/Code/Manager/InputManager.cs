@@ -22,6 +22,7 @@ namespace Game.GreatSword.Manager
             switch (inputData.inputType)
             {
                 case InputType.KEYBOARD:
+                    Cursor.lockState = CursorLockMode.Locked;
                     touchControlCanvas.SetActive(false);
                     break;
                 case InputType.TOUCH:
